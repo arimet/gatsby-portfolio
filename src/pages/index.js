@@ -22,7 +22,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div className="h-full flex flex-col items-center justify-center">
+      <div className="min-h-screen flex flex-col items-center justify-center">
         <div className="flex-grow flex flex-col items-center justify-center">
           <Img className="rounded-full w-40 h-40 border-4 border-white mb-12" fluid={data.placeholderImage.childImageSharp.fluid} />
           <div className="mb-12 text-center">

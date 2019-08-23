@@ -18,10 +18,12 @@ const Nav = ({ activeLink }) => (
       </div>
     </Link>
 
-    <div className={"ar-nav " + (activeLink === 'portfolio' ? '' : 'text-gray-600' )}>
-      <p>Portfolio</p>
-      <p>&bull;</p>
-    </div>
+    <Link to="/works">
+      <div className={"ar-nav " + (activeLink === 'works' ? '' : 'text-gray-600' )}>
+        <p>Expérience</p>
+        <p>&bull;</p>
+      </div>
+    </Link>
     <div className={"ar-nav " + (activeLink === 'skills' ? '' : 'text-gray-600' )}>
       <p>Compétences</p>
       <p>&bull;</p>

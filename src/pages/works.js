@@ -1,5 +1,4 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
 import { FaMapMarkerAlt, FaRegCalendarAlt } from 'react-icons/fa';
 
 import Layout from "../components/layout"
@@ -23,9 +22,19 @@ const Works = () => {
             </div>
             <hr className="mb-4 border-solid border-b border-gray-500" />
             <p className="text-gray-800">
-              Conception et réalisation d'une borne de commande. <br/>
-              Conception et réalisation d'une interface web pour pouvoir gérér son menu et sa borne de commande.<br/>
-              Gestion d'une équipe de 4 personnes. 
+            <b>Réalisation d'une interface admin Angular :</b><br/>
+              - Développement d’une interface de gestion de carte/menu à destination des métiers de la restauration. <br/>
+              - Développement de nouvelles fonctionnalités. Maintenance des problèmes rencontrés.  <br/>
+              - Utilisation principale d’ Angular<br/><br/>
+
+            <b>Réalisation d'une borne de commande tactile Angular - Electron :</b><br/>
+              - Développement d’une borne de commande tactile à destination des métiers de la restauration. <br/>
+              - Utilise la carte définie par le gérant via l’interface admin<br/>
+              - Développement de modules permettant la connexion entre la borne et une imprimante, une caisse enregistreuse et un terminal de paiement.<br/>
+              - Angular – Electron <br/><br/>
+
+            <b>Développement d’une application de covoiturage VueJS</b>
+
             </p>
           </div>
 
@@ -41,22 +50,22 @@ const Works = () => {
             </div>
             <hr className="mb-4 border-solid border-b border-gray-500" />
             <p className="text-gray-800">
-              Réalisation d'une version deux de l'application mobile Neo-Nomade. (2017) :<br/>
-              - Une volonté de refondre l'appli existante en Ionic pour la rendre plus performante. Après un benchmark le choix de la technologique s'est posé sur react-native.<br/> 
-              - Re-création from scratch des fonctionnalités existantes.<br/>
-              - Formation et veille continue sur la technologie. <br/>
-              - Création de nouvelles fonctionnalités propre à l'application mobile. <br/>
-              - Utilisation de react-native et d'une api PHP. <br/><br/>
+              <b>Réalisation d'une version deux de l'application mobile Neo-Nomade. (2017) :</b><br/>
+                - Une volonté de refondre l'appli existante en Ionic pour la rendre plus performante. Après un benchmark le choix de la technologique s'est posé sur react-native.<br/> 
+                - Re-création from scratch des fonctionnalités existantes.<br/>
+                - Formation et veille continue sur la technologie. <br/>
+                - Création de nouvelles fonctionnalités propre à l'application mobile. <br/>
+                - Utilisation de react-native et d'une api PHP. <br/><br/>
 
-              • Développement des différents modules qui composent Neo-Nomade en mission continue :<br/>
-              - Front utilisateur : Mise à jour de l'interface utilisateur. Développement de nouvelles fonctionnalités. Maintenance des problèmes rencontrés. <br/>
-              - Back office espace : Mise en place d'un onBoarding utilisateur pour la création d'un espace et l'affiliation de celui-ci. <br/>
-              - Technologies web HTML/JS (JQuery)/CSS/PHP/Solr<br/>
+                <b>Développement des différents modules qui composent Neo-Nomade en mission continue :</b><br/>
+                - Front utilisateur : Mise à jour de l'interface utilisateur. Développement de nouvelles fonctionnalités. Maintenance des problèmes rencontrés. <br/>
+                - Back office espace : Mise en place d'un onBoarding utilisateur pour la création d'un espace et l'affiliation de celui-ci. <br/>
+                - Technologies web HTML/JS (JQuery)/CSS/PHP/Solr<br/><br/>
 
-              • Réalisation d'une première application Mobile. (2016) :<br/>
-              - Réalisation d'une application mobile reprenant les fonctionnalités du site Neo-Nomade. <br/>
-              - Création d'une Api en PHP pour que l'application puisse interroger les informations stockés en base. <br/>
-              - Utilisation de Ionic - AngularJs - PHP<br/>
+                <b>Réalisation d'une première application Mobile. (2016) :</b><br/>
+                - Réalisation d'une application mobile reprenant les fonctionnalités du site Neo-Nomade. <br/>
+                - Création d'une Api en PHP pour que l'application puisse interroger les informations stockés en base. <br/>
+                - Utilisation de Ionic - AngularJs - PHP<br/>
             </p>
           </div>
 
@@ -78,11 +87,11 @@ const Works = () => {
           </div>
 
           <div className="worksContainer mb-12 px-10 border-dashed border-l border-gray-600">
-            <h1 className="text-3xl font-semibold mb-2">ArtiCom</h1>
+            <h1 className="text-3xl font-semibold mb-2">IUT Nancy Charlemagne</h1>
             <div className="flex items-center justify-between mb-2 text-gray-600 text-xl">
               <h2 className="">LP CISIEE (Bac +3)</h2>
               <div className="flex">
-                <p className="flex items-center justify-start mr-4"><FaMapMarkerAlt className="inline mr-1" />IUT Nancy Charlemagne</p>
+                <p className="flex items-center justify-start mr-4"><FaMapMarkerAlt className="inline mr-1" />Nancy</p>
                 <p className="flex items-center justify-start"><FaRegCalendarAlt className="inline mr-1" />2013 - 2016</p>
               </div>
             </div>

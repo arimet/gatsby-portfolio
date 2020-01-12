@@ -1,37 +1,37 @@
 import PropTypes from "prop-types"
 import React from "react"
 import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Nav = ({ activeLink }) => (
-  <div className="flex flex-col sm:flex-row items-center justify-between">
-    <Link to="/">
+  <div className="flex items-center justify-between">
+    <AniLink swipe direction="right" to="/">
       <div className={"ar-nav " + (activeLink === 'home' ? '' : 'text-gray-600' )}>
         <p>Home</p>
         <p>&bull;</p>
       </div>
-    </Link>
+    </AniLink>
 
-    <Link to="/about">
+    <AniLink swipe direction="up" to="/about">
       <div className={"ar-nav " + (activeLink === 'aboutme' ? '' : 'text-gray-600' )}>
         <p>A propos</p>
         <p>&bull;</p>
       </div>
-    </Link>
+    </AniLink>
 
-    <Link to="/works">
+    <AniLink swipe direction="left" to="/works">
       <div className={"ar-nav " + (activeLink === 'works' ? '' : 'text-gray-600' )}>
         <p>Expérience</p>
         <p>&bull;</p>
       </div>
-    </Link>
-    <div className={"ar-nav " + (activeLink === 'skills' ? '' : 'text-gray-600' )}>
-      <p>Compétences</p>
-      <p>&bull;</p>
-    </div>
-    <div className={"ar-nav " + (activeLink === 'blog' ? '' : 'text-gray-600' )}> 
-      <p>Blog</p>
-      <p>&bull;</p>
-    </div>
+    </AniLink>
+
+    <AniLink swipe direction="down" to="/portfolio">
+      <div className={"ar-nav " + (activeLink === 'portfolio' ? '' : 'text-gray-600' )}>
+        <p>Portfolio</p>
+        <p>&bull;</p>
+      </div>
+    </AniLink>
   </div>
 )
 

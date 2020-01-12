@@ -29,7 +29,7 @@ const IndexPage = () => {
             <h1 className="text-5xl">Anthony Rimet</h1>
             <h2 className="text-2xl text-gray-700">Développeur web</h2>
           </div>
-          <button className="bg-white rounded-full py-3 px-5 font-semibold text-xs focus:outline-none">Découvrez moi</button>
+          <button className="bg-white rounded-full py-3 px-5 font-semibold text-xs focus:outline-none">En savoir plus</button>
         </div>
         <Nav activeLink='home' />
       </div>

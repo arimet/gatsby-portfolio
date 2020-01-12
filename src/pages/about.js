@@ -45,7 +45,7 @@ const AboutPage = () => {
                 <p className="flex items-center justify-start text-gray-700"><FaEnvelope className="inline mr-1" />Github</p>
               </div>
               <div>
-                <p className="font-semibold text-right">000000000</p>
+                <p className="font-semibold text-right">0624528125</p>
                 <p className="flex items-center justify-end text-gray-700"><FaPhone className="inline mr-1" />Téléphone</p>
               </div>
             </div>

@@ -10,7 +10,7 @@ const Works = () => {
     <Layout>
       <SEO title="Works" />
       <div className="h-screen flex flex-col items-center justify-center">
-        <div className=" flex flex-1 flex-col container overflow-scroll m-10">
+        <div className=" flex flex-1 flex-col container overflow-scroll p-10">
           <div className="worksContainer mb-12 px-10 border-dashed border-l border-gray-600">
             <h1 className="text-3xl font-semibold mb-2">SmartFizz</h1>
             <div className="flex items-center justify-between mb-2 text-gray-600 text-xl">

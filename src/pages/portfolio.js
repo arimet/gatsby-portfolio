@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Nav from "../components/nav"
-import Folio from "../components/folio";
+import CardFolio from "../components/cardFolio";
 
 export const AllFolioQuery = graphql`
   query AllBlogPosts {
@@ -16,6 +16,7 @@ export const AllFolioQuery = graphql`
             description
             path
             image
+            techno
           }
         }
       }
@@ -28,23 +29,23 @@ const Portfolio = ({data}) => {
     <Layout>
       <SEO title="Portfolio" />
       <div className="h-screen flex flex-col items-center justify-center">
-        <div className=" flex flex-1 flex-col container overflow-scroll m-10">
+        <div className=" flex flex-1 flex-wrap -mx-1 lg:-mx-4 container overflow-scroll p-10">
+        
         { 
           data.allMarkdownRemark.edges.map(folio => {
-            const { title, description, path, image } = folio.node.frontmatter;
-
+            const { title, description, path, image, techno } = folio.node.frontmatter;
             return (
-              <Folio
+              <CardFolio
                 title={title}
                 description={description}
                 path={path}
                 image={image}
+                techno={techno}
                 key={`${title}`}
               />
             )
           })
         }
-          
         </div>
         <Nav activeLink='portfolio' />
       </div>

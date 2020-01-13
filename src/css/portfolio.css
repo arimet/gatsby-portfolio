@@ -12,3 +12,7 @@
   border-radius: 10px;
   background: #38b2ac; 
 }
+
+.ar-border-nav {
+  border-top: 1px solid #a0aec0;
+}

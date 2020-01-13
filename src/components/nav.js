@@ -3,7 +3,7 @@ import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink";
 
 const Nav = ({ activeLink }) => (
-  <div className="flex items-center justify-between">
+  <div className="flex items-center justify-between ar-border-nav">
     <AniLink swipe direction="right" to="/">
       <div className={"ar-nav " + (activeLink === 'home' ? '' : 'text-gray-600' )}>
         <p>Home</p>

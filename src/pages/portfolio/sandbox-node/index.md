@@ -3,7 +3,7 @@ path: '/sandbox-node'
 title: 'SandBox NodeJs '
 description: "Petit bac à sable"
 image: 'images/sandbox.png'
-techno: 'NestJS , Nuxt'
+techno: 'NodeJs'
 ---
 
 Réalisation de petite sandbox pour découvrir les fonctionnalités de **NodeJs**  <br><br>
